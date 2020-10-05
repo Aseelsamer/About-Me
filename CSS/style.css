@@ -1,0 +1,36 @@
+nav li {
+    display: block;
+    background-color:lightblue;
+    font-style: oblique;
+    border: black 2px solid;
+    text-align: center;
+}
+
+h1{
+    font-size: xxx-large;
+    color:navajowhite;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    
+
+}
+
+p {
+    background-color:lightcoral;
+    text-align: center;
+    border: lightslategray double 1px;
+}
+
+img {
+    border-radius: 8px;
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+
+    
+;
+}
+
