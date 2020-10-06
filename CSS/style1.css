@@ -1,10 +1,11 @@
 h1{
-    background-color: lightslategrey;
+    background-color: white;
     border: medium 2px ;
     text-align: center;
     display: inline;
     margin-left: auto;
     margin-right: auto;
+    color: tomato;
 }
 
 div.polaroid {
@@ -13,7 +14,7 @@ div.polaroid {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   
-  img {width: 30%}
+  img {width: 20%}
   
   div.container {
     text-align: center;
@@ -21,7 +22,10 @@ div.polaroid {
   }
 
   p {
-      border: solid 2px blue;
       font-style: italic;
       font-size: xx-large;
+  }
+
+  body{
+      background-color: burlywood;
   }

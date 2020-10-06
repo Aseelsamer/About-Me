@@ -4,7 +4,7 @@
 /* eslint-disable no-redeclare */
 /* eslint-disable eqeqeq */
 'use strict';
-var counter=0;
+var counter = 0;
 
 
 
@@ -38,7 +38,7 @@ if (driving == 'No' || driving == 'n') {
   alert('You are right');
   counter++;
 } else if
-  (driving == 'yes' || driving == 'y') {
+(driving == 'yes' || driving == 'y') {
   //console.log('You are wrong');
   alert('You are wrong');
 
@@ -99,45 +99,54 @@ alert('Thank you ' + userName + ' for playing this game with me and hope you enj
 
 alert('Lets play one more game which is guessing ');
 
-var month = prompt('Can you guess in what month i was born?');
 console.log('month=', month);
 
-for (var i=0 ; i<=2; i++)
-{ console.log(month);
-  if(month=='10'){
+for (var i = 0; i <4; i++) {
+  var month = prompt('Can you guess in what month i was born?');
+  console.log(month);
+  if (month == 10) {
     console.log('You are correct');
     alert('you are correct');
     counter++;
     break;
-  }else if (month>'10'){
-    alert('Too Low')
-    prompt('Try Again');
-  } else if (month<'10'){
+  } else if (month > 10) {
     alert('Too High')
-    prompt('Try Again');
+    // prompt('Try Again');
+  } else if (month < 10) {
+    alert('Too Low')
+    // prompt('Try Again');
   }
+} alert('The correct answer is 10 ');
 
-}
+console.log('car=', car);
+var cars= ['kia','audi','bmw'];
 
-var car= prompt ('Guess what is my dream car ?')
-console.log('car=',car);
-
-for(var i=0; i<=4; i++)
-{
+for (var i = 0; i <6; i++) {
+  var car = prompt('Guess what is my dream car ?')
   console.log(car);
-  if(car=='audi'){
+  if (car == cars[0] || car == cars[1] ||car == cars[2]) {
     console.log('Yupp i love it!')
     alert('Yuppp how did you know')
     counter++;
     break;
-  }else {
-    alert('Nop not this one do not give up , try again')
-    prompt('Nop not this one do not give up , try again');
+  } else {
+    alert('Nop not this one do not give up , try again');
+    // prompt('Nop not this one do not give up , try again')
   }
+  // } else if (car == 'kia') {
+  //   console.log('Yupp i love it!')
+  //   alert('Yuppp how did you know')
+  // } else if (car == 'bmw') {
+  //   console.log('Yupp i love it!')
+  //   alert('Yuppp how did you know')
+  // }
+
+
+  alert('The correct answer is audi,bmw and kia')
+
 }
 
-
-alert('Your Score is ' +counter );
+alert('Your Score is ' + counter);
 
 
 
