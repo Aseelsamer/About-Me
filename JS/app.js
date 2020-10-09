@@ -42,7 +42,7 @@ function driving() {
     alert('You are right');
     counter++;
   } else if
-    (driving == 'yes' || driving == 'y') {
+  (driving == 'yes' || driving == 'y') {
     //console.log('You are wrong');
     alert('You are wrong');
 
