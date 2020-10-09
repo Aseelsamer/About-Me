@@ -12,6 +12,7 @@ var userName = prompt('Hello and Welcome! I Would like to know your name');
 //console.log('userName=', userName);
 alert('Hey ' + userName);
 
+function soda(){
 var Question = prompt('Do you think I like Sodas (Pepsi,Sprite)? ');
 //console.log('question=', Question);
 var Question = Question.toLowerCase();
@@ -26,8 +27,10 @@ if (Question == 'yes' || Question == 'y') {
   //console.log('Your answer is wrong!');
   alert('Your answer is wrong');
 }
+}
+soda();
 
-
+function driving(){
 var driving = prompt('Do you think I like driving?');
 //console.log('driving=', driving);
 var driving = driving.toLowerCase();
@@ -43,8 +46,10 @@ if (driving == 'No' || driving == 'n') {
   alert('You are wrong');
 
 }
+}
+driving();
 
-
+function songs(){
 var Song = prompt('Can you guess if I am a fan of english songs?');
 //console.log('song=', Song);
 
@@ -60,8 +65,10 @@ if (Song == 'yes' || Song == 'y') {
   alert('You are correct');
   counter++;
 }
+}
+songs();
 
-
+function cooking(){
 var Cooking = prompt('Can you guess if I love cooking?');
 //console.log('cooking=', Cooking);
 var Cooking = Cooking.toLowerCase();
@@ -76,8 +83,10 @@ if (Cooking == 'yes' || Cooking == 'y') {
   //console.log('You are wrong');
   alert('You are wrong');
 }
+}
+cooking();
 
-
+function fan(){
 var enemy = prompt('Do you think I am a fan of enemy?');
 console.log('enemy=', enemy);
 
@@ -93,14 +102,16 @@ if (enemy == 'yes' || enemy == 'y') {
   alert('You are correct');
   counter++;
 }
+}
+fan();
 
 
 alert('Thank you ' + userName + ' for playing this game with me and hope you enjoy my website!');
 
 alert('Lets play one more game which is guessing ');
 
-console.log('month=', month);
 
+function born(){
 for (var i = 0; i <4; i++) {
   var month = prompt('Can you guess in what month i was born?');
   console.log(month);
@@ -117,10 +128,13 @@ for (var i = 0; i <4; i++) {
     // prompt('Try Again');
   }
 } alert('The correct answer is 10 ');
+}
+born();
 
-console.log('car=', car);
+
+
 var cars= ['kia','audi','bmw'];
-
+function car(){
 for (var i = 0; i <6; i++) {
   var car = prompt('Guess what is my dream car ?')
   console.log(car);
@@ -133,6 +147,8 @@ for (var i = 0; i <6; i++) {
     alert('Nop not this one do not give up , try again');
     // prompt('Nop not this one do not give up , try again')
   }
+}
+cars();
   // } else if (car == 'kia') {
   //   console.log('Yupp i love it!')
   //   alert('Yuppp how did you know')
